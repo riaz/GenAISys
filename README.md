@@ -13,6 +13,11 @@ This is a meta project where we play with various prompts to llm and save their 
 
     poetry run pytest # this will run all the tests
 
+    Note: its seems its easier to run all tests in poetry quite easy, but bit difficult when
+    running for a individual file
+
+    pytest tests/systems # here we will run the systems tests only 
+
 ### Publishing
 
 This is a poerty project and we are publishing the project to pypi.Make sure you have your pypi token or copy from your .pypirc file. Set the following before running poetry publish
