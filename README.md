@@ -24,5 +24,5 @@ This is a meta project where we play with various prompts to llm and save their 
 
 This is a poerty project and we are publishing the project to pypi.Make sure you have your pypi token or copy from your .pypirc file. Set the following before running poetry publish
 
-    poetry config pypi-token <paste_pypi_token_here>
+    poetry config pypi-token.pypi <paste_pypi_token_here>
 
